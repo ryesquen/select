@@ -1,0 +1,23 @@
+body {
+  font-size: 2em;
+  /* background-color: black; */
+  color: darkslategray;
+}
+
+.muestra {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.colors {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.show__options {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
